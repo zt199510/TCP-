@@ -1,7 +1,7 @@
 # TCP-网络协议问题
 1. 在浏览器输入www.baidu.com 经历了几个协议 流程是怎么样的？   
 2. Ping的原理是什么？基于哪一层的？  
-ping命令基于ICMP协议[控制报文协议( Internet Control Message Protocol)],
+ping命令基于网络层ICMP协议[控制报文协议( Internet Control Message Protocol)],
 ICMP协议会要求目标主机在收到消息之后，必须返回ICMP应答消息给源主机，如果源主机在一定时间内收到了目标主机的应答，则表明两台主机之间网络是可达的。
 3. tcp为什么需要三次握手  
 4. tcp为啥需要四次挥手 
